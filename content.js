@@ -9,6 +9,37 @@ function debounce(func, wait) {
 // Track the current input element that has focus
 let currentInputElement = null;
 
+// State to track if grammar checking is enabled
+let isGrammarCheckEnabled = true;
+
+// Load initial state from storage
+chrome.storage.sync.get(['grammarCheckEnabled'], (result) => {
+  isGrammarCheckEnabled = result.grammarCheckEnabled !== undefined ? result.grammarCheckEnabled : true;
+});
+
+// Listen for toggle messages from popup
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  console.log('Content script received message:', message);
+  
+  if (message.action === 'toggleGrammarCheck') {
+    isGrammarCheckEnabled = message.enabled;
+    
+    // If disabled, hide any open suggestions
+    if (!isGrammarCheckEnabled) {
+      hideSuggestions();
+    }
+    
+    // Always send a response to prevent connection errors
+    sendResponse({ success: true, enabled: isGrammarCheckEnabled });
+  } else {
+    // For other messages, send a basic response
+    sendResponse({ received: true });
+  }
+  
+  // Return true to indicate that the response will be sent asynchronously
+  return true;
+});
+
 // Create and manage suggestions dropdown
 function createSuggestionsDropdown() {
   let dropdown = document.getElementById('eng-assistant-suggestions');
@@ -95,6 +126,10 @@ function applySuggestion(inputEl, suggestion) {
 
 function handleInput(e) {
   const el = e.target;
+  if (!isGrammarCheckEnabled) {
+    return; // Skip grammar checking if disabled
+  }
+  
   if (!el.value || el.value.length < 5) {
     // too short to check
     hideSuggestions();

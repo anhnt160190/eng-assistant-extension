@@ -5,10 +5,3 @@ html, body, #root {
   height: 600px; /* ← Adjust height here */
   overflow: hidden;
 }
-
-.container {
-  width: 300px;
-  height: 300px;
-  background-color: #f0f0f0;
-  padding: 10px;
-}

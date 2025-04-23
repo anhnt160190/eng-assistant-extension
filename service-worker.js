@@ -3,8 +3,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     // temporary response
     sendResponse({ 
       success: true, 
-      message: 'Grammar check completed',
-      text: message.text
+      suggestions: ['suggestion 1', 'suggestion 2', 'suggestion 3']
     });
   }
   return true;

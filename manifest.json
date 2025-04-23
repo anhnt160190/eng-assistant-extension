@@ -1,0 +1,10 @@
+{
+  "name": "hugo-english-assistant",
+  "description": "English Assistant for Hugo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  }
+}

@@ -1,0 +1,106 @@
+/* Main tooltip container */
+.eng-assistant-tooltip {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  display: flex;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+/* Button base style */
+.eng-assistant-btn {
+  color: white;
+  border: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.eng-assistant-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Button specific styles */
+.eng-assistant-btn-grammar {
+  background: #4285f4;  /* Google blue */
+}
+
+.eng-assistant-btn-translate {
+  background: #34a853;  /* Google green */
+}
+
+.eng-assistant-btn-back {
+  background: #9e9e9e;  /* Gray */
+}
+
+/* Icon base style */
+.eng-assistant-icon {
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+}
+
+/* Custom icons using Unicode characters */
+.eng-assistant-icon-grammar::before {
+  content: "✓";  /* Checkmark */
+}
+
+.eng-assistant-icon-translate::before {
+  content: "🌐";  /* Globe */
+}
+
+.eng-assistant-icon-back::before {
+  content: "←";  /* Left arrow */
+}
+
+/* Suggestions container */
+.eng-assistant-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+/* Heading style */
+.eng-assistant-heading {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* List style */
+.eng-assistant-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* List item style */
+.eng-assistant-list-item {
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-bottom: 2px;
+  transition: background-color 0.2s;
+}
+
+.eng-assistant-list-item:hover {
+  background-color: #f0f0f0;
+} 

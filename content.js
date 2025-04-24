@@ -1,254 +1,171 @@
-function debounce(func, wait) {
-  let timeout;
-  return function (...args) {
-    clearTimeout(timeout);
-    timeout = setTimeout(() => func.apply(this, args), wait);
+// Create a tooltip element and return it
+const createTooltip = () => {
+  const tooltipEl = document.createElement('div');
+  tooltipEl.className = 'eng-assistant-tooltip';
+  document.body.appendChild(tooltipEl);
+  return tooltipEl;
+};
+
+// Create a button with an icon for the tooltip
+const createButton = (iconType, tooltip) => {
+  const button = document.createElement('button');
+  button.className = `eng-assistant-btn eng-assistant-btn-${iconType}`;
+  
+  // Create icon element
+  const icon = document.createElement('span');
+  icon.className = `eng-assistant-icon eng-assistant-icon-${iconType}`;
+  
+  // Add tooltip attribute
+  if (tooltip) {
+    button.setAttribute('title', tooltip);
+  }
+  
+  button.appendChild(icon);
+  return button;
+};
+
+// Position the tooltip near the selected text
+const positionTooltip = (tooltipEl, selection) => {
+  const range = selection.getRangeAt(0);
+  const rect = range.getBoundingClientRect();
+  
+  tooltipEl.style.top = `${window.scrollY + rect.bottom - 80}px`;
+  tooltipEl.style.left = `${window.scrollX + rect.left + 120}px`;
+  tooltipEl.style.display = 'flex';
+};
+
+// Function to show suggestions
+const showSuggestions = (tooltipEl, suggestions) => {
+  // Save the position
+  const position = {
+    top: tooltipEl.style.top,
+    left: tooltipEl.style.left
   };
-}
-
-// Track the current input element that has focus
-let currentInputElement = null;
-
-// State to track if grammar checking is enabled
-let isGrammarCheckEnabled = true;
-
-// Load initial state from storage
-chrome.storage.sync.get(['grammarCheckEnabled'], (result) => {
-  isGrammarCheckEnabled = result.grammarCheckEnabled !== undefined ? result.grammarCheckEnabled : true;
-});
-
-// Listen for toggle messages from popup
-chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-  console.log('Content script received message:', message);
   
-  if (message.action === 'toggleGrammarCheck') {
-    isGrammarCheckEnabled = message.enabled;
+  // Clear previous content
+  tooltipEl.innerHTML = '';
+  
+  // Add a back button
+  const backButton = document.createElement('button');
+  backButton.className = 'eng-assistant-btn eng-assistant-btn-back';
+  const backIcon = document.createElement('span');
+  backIcon.className = 'eng-assistant-icon eng-assistant-icon-back';
+  backButton.appendChild(backIcon);
+  backButton.setAttribute('title', 'Back to options');
+  
+  // Add event listener to back button
+  backButton.addEventListener('click', () => {
+    // Restore tooltip to original state
+    tooltipEl.innerHTML = '';
     
-    // If disabled, hide any open suggestions
-    if (!isGrammarCheckEnabled) {
-      hideSuggestions();
-    }
+    // Recreate buttons
+    const checkButton = createButton('grammar', 'Check Grammar');
+    const translateButton = createButton('translate', 'Translate');
     
-    // Always send a response to prevent connection errors
-    sendResponse({ success: true, enabled: isGrammarCheckEnabled });
-  } else {
-    // For other messages, send a basic response
-    sendResponse({ received: true });
-  }
+    // Re-add event listeners
+    checkButton.addEventListener('click', () => {
+      // We don't need to do the API call again since we already have the suggestions
+      showSuggestions(tooltipEl, suggestions);
+    });
+    
+    // Add buttons back to tooltip
+    tooltipEl.appendChild(checkButton);
+    tooltipEl.appendChild(translateButton);
+    
+    // Restore tooltip position
+    tooltipEl.style.top = position.top;
+    tooltipEl.style.left = position.left;
+  });
   
-  // Return true to indicate that the response will be sent asynchronously
-  return true;
-});
-
-// Create and manage suggestions dropdown
-function createSuggestionsDropdown() {
-  let dropdown = document.getElementById('eng-assistant-suggestions');
-  if (!dropdown) {
-    dropdown = document.createElement('div');
-    dropdown.id = 'eng-assistant-suggestions';
-    dropdown.style.position = 'absolute';
-    dropdown.style.zIndex = '9999';
-    dropdown.style.background = '#fff';
-    dropdown.style.border = '1px solid #ccc';
-    dropdown.style.borderRadius = '4px';
-    dropdown.style.boxShadow = '0 2px 8px rgba(0,0,0,0.2)';
-    dropdown.style.display = 'none';
-    dropdown.style.maxWidth = '400px';
-    dropdown.style.maxHeight = '200px';
-    dropdown.style.overflowY = 'auto';
-    document.body.appendChild(dropdown);
-  }
-  return dropdown;
-}
-
-// Show suggestions dropdown near the input element
-function showSuggestions(inputEl, suggestions) {
-  if (!suggestions || !suggestions.length) return;
+  // Create suggestions container
+  const suggestionsContainer = document.createElement('div');
+  suggestionsContainer.className = 'eng-assistant-suggestions-container';
   
-  // Store the current input element
-  currentInputElement = inputEl;
+  // Add heading
+  const heading = document.createElement('div');
+  heading.innerText = 'Suggestions';
+  heading.className = 'eng-assistant-heading';
+  suggestionsContainer.appendChild(heading);
   
-  const dropdown = createSuggestionsDropdown();
+  // Create list
+  const list = document.createElement('ul');
+  list.className = 'eng-assistant-list';
   
-  // Position dropdown below the input
-  const rect = inputEl.getBoundingClientRect();
-  dropdown.style.top = `${window.scrollY + rect.bottom}px`;
-  dropdown.style.left = `${window.scrollX + rect.left}px`;
-  dropdown.style.width = `${rect.width}px`;
-  
-  // Clear previous suggestions
-  dropdown.innerHTML = '';
-  
-  // Add suggestion items
+  // Add suggestions
   suggestions.forEach(suggestion => {
-    const item = document.createElement('div');
-    item.className = 'eng-assistant-suggestion';
-    item.textContent = suggestion;
-    item.style.padding = '8px 12px';
-    item.style.cursor = 'pointer';
-    item.style.borderBottom = '1px solid #eee';
-    
-    // Highlight on hover
-    item.addEventListener('mouseover', () => {
-      item.style.backgroundColor = '#f0f0f0';
-    });
-    item.addEventListener('mouseout', () => {
-      item.style.backgroundColor = 'transparent';
-    });
-    
-    // Apply suggestion when clicked
+    const item = document.createElement('li');
+    item.innerText = suggestion;
+    item.className = 'eng-assistant-list-item';
     item.addEventListener('click', () => {
-      applySuggestion(inputEl, suggestion);
-      hideSuggestions();
+      // Apply the suggestion (in a real app)
+      console.log('Applied suggestion:', suggestion);
+      tooltipEl.style.display = 'none';
     });
-    
-    dropdown.appendChild(item);
+    list.appendChild(item);
   });
   
-  dropdown.style.display = 'block';
-}
-
-// Hide suggestions dropdown
-function hideSuggestions() {
-  const dropdown = document.getElementById('eng-assistant-suggestions');
-  if (dropdown) {
-    dropdown.style.display = 'none';
-  }
-  currentInputElement = null;
-}
-
-// Apply the selected suggestion to the input
-function applySuggestion(inputEl, suggestion) {
-  inputEl.value = suggestion;
-  // Trigger input event to ensure any listeners are notified
-  inputEl.dispatchEvent(new Event('input', { bubbles: true }));
-}
-
-function handleInput(e) {
-  const el = e.target;
-  if (!isGrammarCheckEnabled) {
-    return; // Skip grammar checking if disabled
-  }
+  suggestionsContainer.appendChild(list);
   
-  if (!el.value || el.value.length < 5) {
-    // too short to check
-    hideSuggestions();
-    return;
-  }
-  chrome.runtime.sendMessage(
-    { action: 'checkGrammar', text: el.value },
-    (response) => {
-      console.log('temporary response', response);
-      const {success, suggestions} = response || {};
-      if (success) return;
-      if (!suggestions || suggestions.length === 0) return;
-      showSuggestions(el, response.suggestions);
-    }
-  );
-}
+  // Add back button and suggestions container to tooltip
+  tooltipEl.appendChild(backButton);
+  tooltipEl.appendChild(suggestionsContainer);
+};
 
-// Create debounced version of handleInput
-const debouncedHandleInput = debounce(handleInput, 1000);
+// Inject CSS file
+const injectCSS = () => {
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = chrome.runtime.getURL('content.css');
+  document.head.appendChild(link);
+};
 
-function listenToNewInputs(node) {
-  // Match input elements that accept text (excluding buttons, checkboxes, radio, etc.)
-  if (node.nodeName === 'INPUT' &&
-    !['button', 'checkbox', 'radio', 'submit', 'reset', 'file', 'image', 'range', 'color', 'date', 'datetime-local', 'month', 'week', 'time'].includes(node.type) ||
-    node.nodeName === 'TEXTAREA') {
-    node.addEventListener('input', debouncedHandleInput);
-  }
-}
+const init = () => {
+  // Inject CSS
+  injectCSS();
+  
+  // Create a tooltip element
+  const tooltipEl = createTooltip();
 
-function initializeContentScript() {
-  // Set up mutation observer for dynamically added elements
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
-      mutation.addedNodes.forEach((node) => {
-        if (node.nodeType === 1) listenToNewInputs(node);
+  // Add event to show the tooltip when text is selected
+  document.addEventListener("mouseup", (event) => {
+    const selectedText = window.getSelection().toString().trim();
+    
+    if (selectedText.length > 0) {
+      // Clear previous content
+      tooltipEl.innerHTML = '';
+      
+      // Add options
+      const checkButton = createButton('grammar', 'Check Grammar');
+      const translateButton = createButton('translate', 'Translate');
+      
+      // Add event listeners
+      checkButton.addEventListener('click', () => {
+        chrome.runtime.sendMessage({
+          action: 'checkGrammar',
+          text: selectedText
+        }, (response) => {
+          if (response && response.suggestions) {
+            showSuggestions(tooltipEl, response.suggestions);
+          }
+        });
       });
-    });
-  });
-
-  observer.observe(document.body, { childList: true, subtree: true });
-
-  // Handle initial static inputs - updated selector to match more input types
-  const textInputSelector = 'input:not([type="button"]):not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="reset"]):not([type="file"]):not([type="image"]):not([type="range"]):not([type="color"]):not([type="date"]):not([type="datetime-local"]):not([type="month"]):not([type="week"]):not([type="time"]), textarea';
-
-  const initialInputs = document.querySelectorAll(textInputSelector);
-  initialInputs.forEach((el) => {
-    el.addEventListener('input', debouncedHandleInput);
-  });
-
-  // Specific check for the searchboxinput we found
-  const searchBox = document.querySelector('#searchboxinput');
-  if (searchBox) {
-    searchBox.addEventListener('input', debouncedHandleInput);
-  }
-  
-  // Create the suggestions dropdown initially
-  createSuggestionsDropdown();
-  
-  // Add global click event listener to handle clicks outside the dropdown
-  document.addEventListener('click', handleDocumentClick);
-
-  console.log('Loaded English Assistant');
-}
-
-// Handle clicks on the document
-function handleDocumentClick(e) {
-  const dropdown = document.getElementById('eng-assistant-suggestions');
-  if (!dropdown || dropdown.style.display === 'none') return;
-  
-  // If the click is outside both the dropdown and the input element, hide the dropdown
-  if (!e.target.closest('#eng-assistant-suggestions') && e.target !== currentInputElement) {
-    hideSuggestions();
-  }
-}
-
-// Add keyboard navigation for suggestions
-document.addEventListener('keydown', (e) => {
-  const dropdown = document.getElementById('eng-assistant-suggestions');
-  if (dropdown && dropdown.style.display === 'block') {
-    const suggestions = dropdown.querySelectorAll('.eng-assistant-suggestion');
-    const activeIndex = Array.from(suggestions).findIndex(el => el.classList.contains('active'));
-    
-    switch (e.key) {
-      case 'ArrowDown':
-        e.preventDefault();
-        if (activeIndex < suggestions.length - 1) {
-          if (activeIndex >= 0) suggestions[activeIndex].classList.remove('active');
-          suggestions[activeIndex + 1].classList.add('active');
-          suggestions[activeIndex + 1].scrollIntoView({ block: 'nearest' });
-        }
-        break;
-      case 'ArrowUp':
-        e.preventDefault();
-        if (activeIndex > 0) {
-          suggestions[activeIndex].classList.remove('active');
-          suggestions[activeIndex - 1].classList.add('active');
-          suggestions[activeIndex - 1].scrollIntoView({ block: 'nearest' });
-        }
-        break;
-      case 'Enter':
-        if (activeIndex >= 0) {
-          e.preventDefault();
-          const activeEl = suggestions[activeIndex];
-          const inputEl = document.activeElement;
-          applySuggestion(inputEl, activeEl.textContent);
-          hideSuggestions();
-        }
-        break;
-      case 'Escape':
-        hideSuggestions();
-        break;
+      
+      // Add buttons to tooltip
+      tooltipEl.appendChild(checkButton);
+      tooltipEl.appendChild(translateButton);
+      
+      // Position the tooltip near the selection
+      positionTooltip(tooltipEl, window.getSelection());
     }
-  }
-});
-
-// Wait for DOM to be fully loaded before initializing
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initializeContentScript);
-} else {
-  // If already loaded, run immediately
-  initializeContentScript();
+  });
+  
+  // Hide tooltip when clicking elsewhere
+  document.addEventListener('mousedown', (event) => {
+    if (!tooltipEl.contains(event.target)) {
+      tooltipEl.style.display = 'none';
+    }
+  });
 }
+
+init();

@@ -1,0 +1,802 @@
+[
+  {
+    "phrase": "circle back",
+    "meaning": "Return to discuss something at a later time",
+    "example": "Let's circle back on this after the sprint review.",
+    "context": "Common in meetings and Slack. Often used to postpone a decision politely.",
+    "alternatives": ["revisit", "follow up on", "return to"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "move the needle",
+    "meaning": "Make a meaningful or measurable difference",
+    "example": "We've shipped five small fixes this week, but none of them really move the needle on retention.",
+    "context": "Used when evaluating the impact of work. Implies the change must be significant enough to register.",
+    "alternatives": ["make an impact", "drive results", "make a dent"],
+    "category": "general"
+  },
+  {
+    "phrase": "low-hanging fruit",
+    "meaning": "Easy wins or tasks that can be accomplished quickly with minimal effort",
+    "example": "Let's tackle the low-hanging fruit first — the password validation fix takes 30 minutes.",
+    "context": "Common in planning sessions. Sometimes overused; signals a quick win opportunity.",
+    "alternatives": ["quick wins", "easy fixes", "obvious improvements"],
+    "category": "general"
+  },
+  {
+    "phrase": "in the loop",
+    "meaning": "Kept informed and up to date about something",
+    "example": "Keep me in the loop on the vendor negotiation — I want to know if anything changes.",
+    "context": "Very common in email and Slack. Opposite: 'out of the loop'.",
+    "alternatives": ["informed", "up to date", "in the know"],
+    "category": "general"
+  },
+  {
+    "phrase": "take offline",
+    "meaning": "Continue a conversation separately, outside the current meeting",
+    "example": "That's a great question — let's take it offline so we don't run over time.",
+    "context": "Standard meeting phrase. Used to keep the meeting on track without dismissing the topic.",
+    "alternatives": ["discuss separately", "handle outside this meeting", "follow up one-on-one"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "let's table this",
+    "meaning": "Postpone discussion of this topic (US usage)",
+    "example": "Let's table the rebrand discussion until we have the brand agency on the call.",
+    "context": "WARNING: In British English, 'table' means to bring something forward for discussion — the opposite of US usage. Clarify if working in mixed international teams.",
+    "alternatives": ["set aside for now", "park this", "revisit later"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "parking lot",
+    "meaning": "A place to hold off-topic ideas raised in a meeting, to revisit later",
+    "example": "Good point about the pricing model — I'll add it to the parking lot.",
+    "context": "Usually written on a whiteboard or shared doc during meetings. Not always revisited — be explicit about follow-up.",
+    "alternatives": ["sidebar", "backlog item", "to be discussed"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "on the same page",
+    "meaning": "Having the same understanding or information about something",
+    "example": "Before we kick off, I want to make sure we're all on the same page about the scope.",
+    "context": "Used constantly in meetings and emails. Signals a desire to confirm shared understanding.",
+    "alternatives": ["aligned", "in agreement", "on the same wavelength"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "let's get the ball rolling",
+    "meaning": "Start something or initiate progress on a project",
+    "example": "We've been planning long enough — let's get the ball rolling on the prototype.",
+    "context": "Used at the start of a project or when someone is pushing for action after too much discussion.",
+    "alternatives": ["kick things off", "get started", "initiate"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "at the end of the day",
+    "meaning": "When everything is considered; ultimately",
+    "example": "At the end of the day, the decision comes down to what's best for the user.",
+    "context": "Often used to summarize or cut through debate. Can sound dismissive if overused.",
+    "alternatives": ["ultimately", "in the final analysis", "when all is said and done"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "touch base",
+    "meaning": "Make brief contact with someone to share or check on information",
+    "example": "Let's touch base on Friday before the client call.",
+    "context": "Very common in email subject lines and Slack. Signals a quick, informal check-in.",
+    "alternatives": ["check in", "connect briefly", "catch up"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "level set",
+    "meaning": "Establish a shared understanding of the current situation before moving forward",
+    "example": "Before we go into the proposals, let's level set on where the project actually stands.",
+    "context": "Used to reset expectations or correct misunderstandings. Often used at the start of a meeting.",
+    "alternatives": ["align on context", "establish a baseline", "get on the same page"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "take it to the next level",
+    "meaning": "Improve something significantly or scale it up",
+    "example": "The MVP is solid — now we need to take the product to the next level with enterprise features.",
+    "context": "Can sound vague. Best when followed by specifics about what 'the next level' means.",
+    "alternatives": ["scale up", "elevate", "significantly improve"],
+    "category": "general"
+  },
+  {
+    "phrase": "think outside the box",
+    "meaning": "Approach a problem with creative or unconventional thinking",
+    "example": "We keep proposing the same solutions — we need to think outside the box on this one.",
+    "context": "One of the most overused phrases in business. Use sparingly; it often lands as a cliché.",
+    "alternatives": ["be creative", "explore unconventional approaches", "challenge assumptions"],
+    "category": "general"
+  },
+  {
+    "phrase": "run it up the flagpole",
+    "meaning": "Share an idea to gauge reactions before fully committing to it",
+    "example": "Let me run this pricing idea up the flagpole with leadership and see how they respond.",
+    "context": "Used when you want feedback on something tentative. Similar to 'socialize the idea'.",
+    "alternatives": ["socialize the idea", "float it past leadership", "get a temperature check"],
+    "category": "general"
+  },
+  {
+    "phrase": "boil the ocean",
+    "meaning": "Attempt to do something that is impractically large or complex",
+    "example": "We don't need to boil the ocean — just fix the top 3 pain points in the funnel.",
+    "context": "Usually used negatively — 'we don't want to boil the ocean'. Signals scope is too large.",
+    "alternatives": ["over-engineer", "overcomplicate", "try to do too much"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "hit the ground running",
+    "meaning": "Start something quickly and energetically with no warm-up period",
+    "example": "The new engineer joins Monday — we need them to hit the ground running on the auth work.",
+    "context": "Often used in hiring or onboarding contexts. Implies minimal ramp-up time expected.",
+    "alternatives": ["start immediately at full speed", "jump right in", "start without delay"],
+    "category": "general"
+  },
+  {
+    "phrase": "deep in the weeds",
+    "meaning": "Focusing on minor details to the point of losing sight of the bigger picture",
+    "example": "We're getting deep in the weeds on the button color — let's get back to the main flow.",
+    "context": "Usually a signal to zoom out. Can also mean very technical, detailed work.",
+    "alternatives": ["too detailed", "lost in minutiae", "in the details"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "30,000-foot view",
+    "meaning": "A high-level overview of a situation without getting into details",
+    "example": "Before we go into specs, let me give you the 30,000-foot view of the strategy.",
+    "context": "Used to frame executive-level summaries. Opposite of 'in the weeds'.",
+    "alternatives": ["big picture", "high-level overview", "strategic view"],
+    "category": "presentations"
+  },
+  {
+    "phrase": "move fast and break things",
+    "meaning": "Prioritize speed of development over caution or perfection",
+    "example": "That was the old motto — now we move fast but we don't break things that are working.",
+    "context": "Originally a Meta/Facebook company value. Now often used critically or ironically.",
+    "alternatives": ["ship fast", "iterate quickly", "bias toward action"],
+    "category": "general"
+  },
+  {
+    "phrase": "pursuant to",
+    "meaning": "In accordance with or following from",
+    "example": "Pursuant to our agreement dated March 1st, payment is due within 30 days.",
+    "context": "Formal legal and business writing. Very rare in Slack; common in contracts and formal emails.",
+    "alternatives": ["in accordance with", "as per", "following"],
+    "category": "email"
+  },
+  {
+    "phrase": "at your earliest convenience",
+    "meaning": "As soon as possible, without causing you too much trouble",
+    "example": "Please review the attached document at your earliest convenience.",
+    "context": "Polite but can imply urgency. Often used when you need a response but don't want to seem pushy.",
+    "alternatives": ["as soon as possible", "when you get a chance", "when you're free"],
+    "category": "email"
+  },
+  {
+    "phrase": "per my last email",
+    "meaning": "As I already explained in my previous email (often implies frustration)",
+    "example": "Per my last email, the deadline was moved to Wednesday, not Friday.",
+    "context": "Can come across as passive-aggressive. The phrase has become a meme for politely expressing frustration. Use carefully.",
+    "alternatives": ["as I mentioned previously", "as stated earlier", "as noted below"],
+    "category": "email"
+  },
+  {
+    "phrase": "hope this finds you well",
+    "meaning": "A polite opener for a formal or semi-formal email",
+    "example": "Hi David, hope this finds you well. I wanted to follow up on our proposal.",
+    "context": "Very common email opener. Some find it hollow; consider skipping it if you have a warm relationship.",
+    "alternatives": ["I hope you're doing well", "hope you're having a good week", "trust this email finds you well"],
+    "category": "email"
+  },
+  {
+    "phrase": "circling back",
+    "meaning": "Returning to a previous topic or unanswered email",
+    "example": "Circling back on this — did you get a chance to review the proposal?",
+    "context": "The most common way to send a polite follow-up email without saying 'why haven't you replied'.",
+    "alternatives": ["following up", "revisiting", "checking in on"],
+    "category": "email"
+  },
+  {
+    "phrase": "just to clarify",
+    "meaning": "Used to correct a misunderstanding or confirm understanding",
+    "example": "Just to clarify — the deadline is end of business Thursday, not end of week.",
+    "context": "Polite way to correct someone without saying they were wrong. Useful in email threads.",
+    "alternatives": ["to confirm", "to be clear", "for the avoidance of doubt"],
+    "category": "email"
+  },
+  {
+    "phrase": "for the avoidance of doubt",
+    "meaning": "To make sure there is absolutely no misunderstanding",
+    "example": "For the avoidance of doubt, this agreement does not include data storage services.",
+    "context": "Common in contracts and formal business communication. Signals something legally or operationally important.",
+    "alternatives": ["to be absolutely clear", "just to clarify", "to confirm"],
+    "category": "email"
+  },
+  {
+    "phrase": "happy to hop on a call",
+    "meaning": "Willing to schedule a phone or video call to discuss further",
+    "example": "Happy to hop on a call if it's easier to walk through the details live.",
+    "context": "Extremely common in business email. Used to offer synchronous communication when email gets complex.",
+    "alternatives": ["happy to jump on a call", "we could schedule a quick call", "happy to discuss live"],
+    "category": "email"
+  },
+  {
+    "phrase": "looping in",
+    "meaning": "Adding someone to an email thread so they are included",
+    "example": "Looping in Sarah from finance who can answer the billing questions.",
+    "context": "Standard email phrase when CC'ing someone mid-thread. Always explain why you're looping them in.",
+    "alternatives": ["adding", "cc'ing", "including"],
+    "category": "email"
+  },
+  {
+    "phrase": "please find attached",
+    "meaning": "Indicating that a document or file has been attached to the email",
+    "example": "Please find attached the revised proposal for your review.",
+    "context": "Formal email phrasing. Common but somewhat stiff — alternatives exist for more casual tone.",
+    "alternatives": ["I've attached", "see attached", "attached is"],
+    "category": "email"
+  },
+  {
+    "phrase": "take this forward",
+    "meaning": "Progress or develop something from its current state",
+    "example": "Once legal approves, we can take this forward and finalize the partnership.",
+    "context": "Used in professional email to indicate next steps after a decision or approval.",
+    "alternatives": ["move forward with this", "proceed with this", "advance this"],
+    "category": "email"
+  },
+  {
+    "phrase": "no worries",
+    "meaning": "It's fine; don't be concerned about it",
+    "example": "No worries about the delay — just send it over whenever you're ready.",
+    "context": "Very common in Slack and casual email. Signals you're not bothered by something. Can be too casual for formal contexts.",
+    "alternatives": ["no problem", "that's fine", "not a concern"],
+    "category": "email"
+  },
+  {
+    "phrase": "double-clicking on that",
+    "meaning": "Exploring or examining a point in more detail",
+    "example": "I want to double-click on that cost estimate — can you walk us through the assumptions?",
+    "context": "Tech-world jargon for 'let's dig deeper'. Commonly heard in meetings and used in Slack.",
+    "alternatives": ["dig into", "zoom in on", "explore further"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "unpack that",
+    "meaning": "Explore or explain something in more detail",
+    "example": "Can you unpack that a bit more? I'm not sure I follow the logic.",
+    "context": "Used in meetings when a statement needs more explanation. Sometimes overused in presentations.",
+    "alternatives": ["explain further", "break that down", "elaborate on"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "peel back the onion",
+    "meaning": "Reveal layers of complexity in a problem by examining it more deeply",
+    "example": "When you peel back the onion, the real issue isn't the UI — it's the data model.",
+    "context": "Used in analytical discussions. Implies that the root cause is hidden beneath surface-level symptoms.",
+    "alternatives": ["dig deeper", "get to the root cause", "look beneath the surface"],
+    "category": "general"
+  },
+  {
+    "phrase": "flag",
+    "meaning": "To draw attention to a problem, risk, or concern",
+    "example": "Just flagging that we haven't heard back from the vendor — might be a risk.",
+    "context": "Extremely common in Slack and Jira comments. 'Flagging this' is a gentle way to raise a concern without escalating.",
+    "alternatives": ["highlight", "raise", "draw attention to"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "ping",
+    "meaning": "Send a quick message to someone",
+    "example": "Ping me when the PR is ready for review.",
+    "context": "Slack/chat native vocabulary. Means a brief, informal message. Often used as both noun and verb.",
+    "alternatives": ["message", "drop me a note", "shoot me a message"],
+    "category": "general"
+  },
+  {
+    "phrase": "heads up",
+    "meaning": "An advance warning or early notification about something",
+    "example": "Just a heads up — the API will be down for maintenance on Sunday morning.",
+    "context": "Very common in team Slack channels. Signals proactive communication about something that may affect others.",
+    "alternatives": ["fair warning", "advance notice", "just so you know"],
+    "category": "general"
+  },
+  {
+    "phrase": "on my radar",
+    "meaning": "Something you are aware of and monitoring",
+    "example": "The performance regression is on my radar — I'll look at it after the release.",
+    "context": "Used to signal awareness without committing to immediate action. Also: 'not on my radar' = unaware.",
+    "alternatives": ["aware of it", "tracking it", "keeping an eye on it"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "raise a red flag",
+    "meaning": "Signal a serious concern or warning",
+    "example": "I need to raise a red flag — the current architecture can't support more than 10k concurrent users.",
+    "context": "More serious than 'flagging' — implies a significant risk that requires immediate attention.",
+    "alternatives": ["escalate a concern", "raise a serious concern", "sound the alarm"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "hands-on",
+    "meaning": "Directly involved in the practical work rather than managing from a distance",
+    "example": "The new CTO is very hands-on — expect her to be in code reviews.",
+    "context": "Used to describe a management style or work approach. Positive connotation in technical contexts.",
+    "alternatives": ["directly involved", "in the trenches", "actively participating"],
+    "category": "general"
+  },
+  {
+    "phrase": "bandwidth issue",
+    "meaning": "Not having enough time or capacity to take on more work",
+    "example": "I'd love to help, but I have a bandwidth issue right now — can this wait until next sprint?",
+    "context": "The professional way to say 'I'm too busy'. Less direct than 'I don't have time'.",
+    "alternatives": ["capacity issue", "too much on my plate", "fully committed right now"],
+    "category": "general"
+  },
+  {
+    "phrase": "too many cooks",
+    "meaning": "Too many people involved in a project, causing confusion or inefficiency",
+    "example": "This decision has been going in circles because there are too many cooks — let's assign a single DRI.",
+    "context": "Short for 'too many cooks in the kitchen'. Used when a project has unclear ownership or decision-making.",
+    "alternatives": ["too many decision-makers", "unclear ownership", "too many stakeholders"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "come to Jesus moment",
+    "meaning": "A critical moment of honest reckoning or decision that forces change",
+    "example": "The board meeting was a come-to-Jesus moment — we had to be honest about why growth stalled.",
+    "context": "Used in high-stakes business conversations. Implies a moment of truth after denial or avoidance.",
+    "alternatives": ["reality check", "moment of truth", "honest reckoning"],
+    "category": "general"
+  },
+  {
+    "phrase": "burning platform",
+    "meaning": "An urgent situation that forces a decision or change immediately",
+    "example": "We have a burning platform — the competitor just launched the feature we've been delaying.",
+    "context": "Comes from a metaphor about a burning oil rig. Used to justify urgent action or change.",
+    "alternatives": ["critical situation", "urgent need to act", "crisis point"],
+    "category": "general"
+  },
+  {
+    "phrase": "swim lane",
+    "meaning": "A clearly defined area of responsibility for a person or team",
+    "example": "Let's make sure each team stays in their swim lane during the integration.",
+    "context": "Common in project management. Comes from the visual lanes in a swimlane diagram. Used to prevent overlap.",
+    "alternatives": ["area of responsibility", "domain", "scope"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "rubber stamp",
+    "meaning": "Approve something automatically without genuine review",
+    "example": "The board shouldn't just rubber stamp everything — we need real governance.",
+    "context": "Usually used negatively to imply that an approval process lacks rigor.",
+    "alternatives": ["automatically approve", "approve without scrutiny", "wave through"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "skin in the game",
+    "meaning": "Having a personal stake or investment in the outcome",
+    "example": "We need a vendor with skin in the game — a fixed-fee model gives us no alignment.",
+    "context": "Used to describe risk-sharing or aligned incentives. Popular in business and investing contexts.",
+    "alternatives": ["personally invested", "aligned incentives", "at risk"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "win-win",
+    "meaning": "An outcome that is positive for all parties involved",
+    "example": "Extending the contract in exchange for a 10% discount is a win-win for both of us.",
+    "context": "Overused in negotiation contexts. Genuine when both sides truly benefit; hollow when used rhetorically.",
+    "alternatives": ["mutually beneficial", "positive for both sides", "beneficial to all parties"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "push back",
+    "meaning": "To challenge or resist a proposal or decision",
+    "example": "I'm going to push back on the timeline — three weeks isn't enough for a proper QA cycle.",
+    "context": "Important phrase for non-native speakers. 'Pushback' (noun) means resistance. Healthy in professional settings.",
+    "alternatives": ["challenge", "resist", "raise an objection to"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "hard no",
+    "meaning": "An absolute, final rejection without any flexibility",
+    "example": "Monthly billing is a hard no from our CFO. We only do annual subscriptions.",
+    "context": "Used in negotiations to signal that a position is final. Contrast with 'soft no' which may have room to negotiate.",
+    "alternatives": ["firm rejection", "non-negotiable refusal", "definitive no"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "fast track",
+    "meaning": "To accelerate the progress of something, bypassing normal procedures",
+    "example": "Can we fast track the legal review? The client needs the contract signed by Friday.",
+    "context": "Common in project and account management. Implies priority and urgency.",
+    "alternatives": ["expedite", "accelerate", "prioritize"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "in the weeds",
+    "meaning": "Focused on minor operational details rather than strategic thinking",
+    "example": "You're too in the weeds — as a VP, you should be focused on strategy, not individual tickets.",
+    "context": "Different from 'getting in the weeds' casually. Can be a performance feedback comment for senior roles.",
+    "alternatives": ["too detail-focused", "lost in the details", "micromanaging"],
+    "category": "general"
+  },
+  {
+    "phrase": "by end of day",
+    "meaning": "Before the end of the working day (typically 5-6pm local time)",
+    "example": "I need your sign-off by end of day so I can send it to the client tonight.",
+    "context": "Often abbreviated as EOD. Non-native speakers sometimes confuse this with 'midnight'. Clarify timezone if working globally.",
+    "alternatives": ["EOD", "before close of business", "by COB"],
+    "category": "email"
+  },
+  {
+    "phrase": "close of business",
+    "meaning": "The end of the standard working day",
+    "example": "Please submit your expenses by close of business Friday.",
+    "context": "Often abbreviated as COB. Usually means end of working hours in the sender's timezone. Clarify timezone if relevant.",
+    "alternatives": ["end of day", "EOD", "end of business hours"],
+    "category": "email"
+  },
+  {
+    "phrase": "game changer",
+    "meaning": "Something that fundamentally alters the way things are done",
+    "example": "This AI integration could be a game changer for our customer support costs.",
+    "context": "Often overused. Most effective when describing genuinely transformative changes.",
+    "alternatives": ["transformative", "revolutionary", "paradigm shift"],
+    "category": "general"
+  },
+  {
+    "phrase": "over-engineer",
+    "meaning": "To make something unnecessarily complex when a simpler solution would work",
+    "example": "We don't need microservices for this — don't over-engineer it.",
+    "context": "Common in tech. Related to YAGNI (You Aren't Gonna Need It) principle.",
+    "alternatives": ["overcomplicate", "add unnecessary complexity", "gold-plate"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "dogpile",
+    "meaning": "When multiple people pile on with criticism or objections at once",
+    "example": "Let's not dogpile on the proposal — give the presenter a chance to explain the reasoning.",
+    "context": "Used in meeting contexts to describe pile-on criticism. Signals the need for more constructive feedback.",
+    "alternatives": ["pile on", "gang up on", "attack from all sides"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "cross that bridge when we come to it",
+    "meaning": "Deal with a problem when it actually arises, not before",
+    "example": "If the API rate limits become an issue, we'll cross that bridge when we come to it.",
+    "context": "Used to dismiss premature worrying. Can be frustrating for risk-conscious team members.",
+    "alternatives": ["deal with it when it happens", "handle it if and when it arises", "we'll address it if needed"],
+    "category": "general"
+  },
+  {
+    "phrase": "get buy-in",
+    "meaning": "Obtain agreement and support from stakeholders before moving forward",
+    "example": "Before we start the migration, we need to get buy-in from the data team.",
+    "context": "Critical step in large organizations. Skipping this is a common source of project failure.",
+    "alternatives": ["secure approval", "align stakeholders", "get sign-off"],
+    "category": "general"
+  },
+  {
+    "phrase": "put a pin in it",
+    "meaning": "Pause discussion of a topic to return to it later",
+    "example": "Let's put a pin in the localization discussion — it's out of scope for this sprint.",
+    "context": "Meeting management phrase. Similar to parking lot but more informal. Often forgotten — add it to the notes.",
+    "alternatives": ["table it", "park it", "set it aside for now"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "in a vacuum",
+    "meaning": "In isolation, without considering the surrounding context or dependencies",
+    "example": "This feature looks good in a vacuum, but it doesn't fit the current user flow at all.",
+    "context": "Used to argue that something cannot be evaluated without considering broader context.",
+    "alternatives": ["in isolation", "without context", "out of context"],
+    "category": "general"
+  },
+  {
+    "phrase": "knowledge transfer",
+    "meaning": "The process of sharing expertise or information from one person or team to another",
+    "example": "We need a proper knowledge transfer before Chen goes on leave.",
+    "context": "Common in onboarding, offboarding, and project handoffs. Often abbreviated as KT.",
+    "alternatives": ["handover", "briefing", "documentation handoff"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "gap analysis",
+    "meaning": "An assessment of the difference between current state and desired state",
+    "example": "We need a gap analysis to understand what's missing before we can meet compliance standards.",
+    "context": "Common in strategy, sales, and product planning. Outputs inform roadmap and resource planning.",
+    "alternatives": ["current vs. target state analysis", "needs assessment", "requirements review"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "proof of concept",
+    "meaning": "A small demonstration to verify that an idea is viable",
+    "example": "Let's build a proof of concept before we commit the whole team to this approach.",
+    "context": "Often abbreviated as POC. Different from MVP — POC validates technical feasibility; MVP validates market fit.",
+    "alternatives": ["POC", "prototype", "feasibility test"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "put on the back burner",
+    "meaning": "Deprioritize something, treating it as less urgent",
+    "example": "The API v3 migration has been on the back burner for two quarters now.",
+    "context": "Implies something is delayed but not cancelled. Risk: it may never get done. Be explicit about when it will be revisited.",
+    "alternatives": ["deprioritize", "postpone indefinitely", "defer"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "all hands on deck",
+    "meaning": "Everyone needs to work together urgently on a problem",
+    "example": "The production database is down — all hands on deck until it's resolved.",
+    "context": "Used for crises or critical moments. Implies it's an exception, not the norm.",
+    "alternatives": ["everyone needs to contribute", "urgent all-team effort", "drop everything"],
+    "category": "general"
+  },
+  {
+    "phrase": "drop the ball",
+    "meaning": "Fail to do something that was expected of you",
+    "example": "I dropped the ball on the client follow-up — I'll call them first thing tomorrow.",
+    "context": "Used to acknowledge a mistake or missed responsibility. Honest and direct without being harsh.",
+    "alternatives": ["miss the mark", "fail to follow through", "let something slip"],
+    "category": "general"
+  },
+  {
+    "phrase": "get the ball rolling",
+    "meaning": "Start a process or project",
+    "example": "We have approval — let's get the ball rolling on the implementation phase.",
+    "context": "Used at the start of a project or when pushing for action. Very common in kick-off emails.",
+    "alternatives": ["kick things off", "get started", "initiate"],
+    "category": "general"
+  },
+  {
+    "phrase": "in the driver's seat",
+    "meaning": "In control of a situation or having decision-making authority",
+    "example": "With this partnership, we're in the driver's seat on pricing.",
+    "context": "Used to describe having control or leadership over a process or outcome.",
+    "alternatives": ["in control", "leading", "calling the shots"],
+    "category": "general"
+  },
+  {
+    "phrase": "play devil's advocate",
+    "meaning": "Argue against a position to test its strength, not because you believe it",
+    "example": "I'll play devil's advocate here — what if users don't actually want this feature?",
+    "context": "Useful in meetings to stress-test ideas. Signals the person is deliberately challenging, not personally opposed.",
+    "alternatives": ["challenge the assumption", "present the counterargument", "argue the other side"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "stakeholder alignment",
+    "meaning": "Ensuring all key parties are in agreement before proceeding",
+    "example": "We can't start development until we have full stakeholder alignment on the requirements.",
+    "context": "A formal phrase in project management. Missing this is one of the top causes of project failure.",
+    "alternatives": ["stakeholder buy-in", "cross-team agreement", "consensus from all parties"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "move the goalpost",
+    "meaning": "Change the requirements or success criteria after work has begun",
+    "example": "They keep moving the goalpost — first it was 3 integrations, now it's 7.",
+    "context": "Usually negative — implies the other party is being unfair by changing expectations mid-project.",
+    "alternatives": ["change the requirements", "shift the target", "change the criteria"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "above board",
+    "meaning": "Legitimate, transparent, and following proper procedures",
+    "example": "Everything about this deal is above board — legal has reviewed all the documents.",
+    "context": "Used to reassure others that a transaction or process is legal and transparent.",
+    "alternatives": ["transparent", "legitimate", "by the book"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "take a step back",
+    "meaning": "Reconsider the situation from a broader perspective",
+    "example": "Let's take a step back — are we solving the right problem here?",
+    "context": "Used in meetings to redirect the conversation toward first principles or strategy.",
+    "alternatives": ["zoom out", "reconsider", "look at the bigger picture"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "read the room",
+    "meaning": "Understand and respond appropriately to the mood or situation",
+    "example": "Read the room before proposing a big new initiative — the team is exhausted.",
+    "context": "Can be advice or a critique. Implies emotional intelligence in a professional setting.",
+    "alternatives": ["gauge the situation", "be aware of the dynamics", "sense the mood"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "under the hood",
+    "meaning": "The internal workings or technical details of something",
+    "example": "The feature looks simple to users, but under the hood it's quite complex.",
+    "context": "Tech and product teams use this to discuss implementation details hidden from users.",
+    "alternatives": ["internally", "on the backend", "technically speaking"],
+    "category": "general"
+  },
+  {
+    "phrase": "best of breed",
+    "meaning": "The best solution or product in a specific category",
+    "example": "We use a best-of-breed approach — Salesforce for CRM, Zendesk for support.",
+    "context": "Common in enterprise software procurement. Contrast with 'suite approach' (one vendor for everything).",
+    "alternatives": ["best in class", "industry-leading", "category leader"],
+    "category": "general"
+  },
+  {
+    "phrase": "on a scale",
+    "meaning": "In a way that allows growth or multiplication across many users or instances",
+    "example": "Manual review works for 100 users, but it doesn't work on a scale of 100,000.",
+    "context": "Used to highlight scalability concerns in product and engineering discussions.",
+    "alternatives": ["at scale", "across a large volume", "when scaled up"],
+    "category": "presentations"
+  },
+  {
+    "phrase": "socialize the idea",
+    "meaning": "Share an idea informally with others to get feedback before a formal proposal",
+    "example": "I want to socialize the idea with a few stakeholders before putting it in the roadmap.",
+    "context": "Important in large organizations. Building early support before formal meetings saves political capital.",
+    "alternatives": ["get early feedback on", "float the idea", "test the waters"],
+    "category": "general"
+  },
+  {
+    "phrase": "let's be real",
+    "meaning": "Let's be honest and direct about the situation",
+    "example": "Let's be real — this timeline is not achievable with the current team size.",
+    "context": "Signals a shift to candid conversation. Can be used to cut through politeness or wishful thinking.",
+    "alternatives": ["to be honest", "realistically speaking", "let's be candid"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "net-net",
+    "meaning": "Taking everything into account; the final result after all factors are considered",
+    "example": "Net-net, we're looking at a 15% cost reduction if we proceed with the migration.",
+    "context": "Used in financial and analytical contexts. Means the bottom-line summary.",
+    "alternatives": ["all things considered", "ultimately", "taking everything into account"],
+    "category": "general"
+  },
+  {
+    "phrase": "scalable solution",
+    "meaning": "An approach that works at any size and can grow with demand",
+    "example": "We need a scalable solution, not a one-off fix that breaks at 10x traffic.",
+    "context": "Core phrase in engineering and product strategy. Often paired with 'sustainable' and 'maintainable'.",
+    "alternatives": ["solution that scales", "growth-ready approach", "elastic solution"],
+    "category": "general"
+  },
+  {
+    "phrase": "work backwards",
+    "meaning": "Start from the desired outcome and determine the steps needed to achieve it",
+    "example": "Let's work backwards from the launch date to see what we need to deliver each week.",
+    "context": "A planning approach popularized by Amazon. Effective for deadline-driven projects.",
+    "alternatives": ["reverse engineer the plan", "start from the end goal", "back-plan"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "tiger team",
+    "meaning": "A small group of skilled specialists assembled to solve a critical problem quickly",
+    "example": "We need a tiger team on this data corruption issue — pick your best three engineers.",
+    "context": "Used in crisis situations or for complex, time-sensitive problems. Implies elite, focused effort.",
+    "alternatives": ["task force", "strike team", "rapid response team"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "under promise and over deliver",
+    "meaning": "Set conservative expectations, then exceed them",
+    "example": "Our culture is to under promise and over deliver — never commit to something you can't beat.",
+    "context": "A classic client management and product strategy principle. Builds trust over time.",
+    "alternatives": ["exceed expectations", "beat your commitments", "set achievable targets"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "on the fence",
+    "meaning": "Undecided or uncertain about a choice",
+    "example": "The client is on the fence about the enterprise plan — let's schedule a call to answer their questions.",
+    "context": "Used in sales and negotiations to describe a prospect who hasn't committed either way.",
+    "alternatives": ["undecided", "uncommitted", "still considering"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "brass tacks",
+    "meaning": "The practical details or fundamental facts of a matter",
+    "example": "Let's get down to brass tacks — what's the actual delivery date?",
+    "context": "Used when cutting through vague talk to discuss the concrete specifics. Often 'get down to brass tacks'.",
+    "alternatives": ["the concrete details", "the specifics", "the practical reality"],
+    "category": "negotiations"
+  },
+  {
+    "phrase": "ballpark",
+    "meaning": "An approximate range or estimate",
+    "example": "I don't need an exact number — just give me a ballpark on the budget.",
+    "context": "Very common in business conversations. 'Ballpark figure' or 'in the ballpark' is acceptable.",
+    "alternatives": ["rough estimate", "approximate figure", "order of magnitude"],
+    "category": "general"
+  },
+  {
+    "phrase": "on the back of",
+    "meaning": "As a result of or following something",
+    "example": "On the back of last quarter's growth, we're doubling the marketing budget.",
+    "context": "Common in British and Australian business English. Means 'following' or 'as a result of'.",
+    "alternatives": ["following", "as a result of", "building on"],
+    "category": "general"
+  },
+  {
+    "phrase": "cut to the chase",
+    "meaning": "Get to the most important part without wasting time on less important details",
+    "example": "I'll cut to the chase — we need a 20% price reduction to make this work.",
+    "context": "Signals directness. Can be used to save time in a meeting or to make a decisive statement.",
+    "alternatives": ["get to the point", "skip the preamble", "be direct"],
+    "category": "meetings"
+  },
+  {
+    "phrase": "shed light on",
+    "meaning": "Provide clarity or explanation about something unclear",
+    "example": "Can you shed some light on why the error rate spiked last Tuesday?",
+    "context": "Formal and polite phrasing for asking for an explanation. Common in emails and presentations.",
+    "alternatives": ["explain", "clarify", "provide insight on"],
+    "category": "email"
+  },
+  {
+    "phrase": "take the lead",
+    "meaning": "Assume responsibility and guide others on a task or project",
+    "example": "Who's going to take the lead on the migration? I need someone to own it.",
+    "context": "Used when assigning or volunteering for ownership. Implies active responsibility, not just involvement.",
+    "alternatives": ["own this", "lead this", "be the DRI on this"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "flesh out",
+    "meaning": "Develop an idea or plan in more detail",
+    "example": "The concept is good — let's flesh out the implementation plan before the next review.",
+    "context": "Common in planning and feedback. Implies the current version is incomplete but promising.",
+    "alternatives": ["develop in detail", "build out", "elaborate on"],
+    "category": "general"
+  },
+  {
+    "phrase": "long story short",
+    "meaning": "To summarize a complicated situation briefly",
+    "example": "Long story short, the deployment failed and we rolled back to v2.3.",
+    "context": "Used when skipping over details to give the key result. Common in incident updates and Slack messages.",
+    "alternatives": ["in summary", "the bottom line is", "to cut a long story short"],
+    "category": "general"
+  },
+  {
+    "phrase": "revisit",
+    "meaning": "Return to a topic, plan, or decision to review or reconsider it",
+    "example": "Let's revisit the pricing strategy after we see the Q1 retention numbers.",
+    "context": "More formal than 'circle back'. Implies intentional review rather than just following up.",
+    "alternatives": ["review again", "reconsider", "take another look at"],
+    "category": "general"
+  },
+  {
+    "phrase": "operationally excellent",
+    "meaning": "Performing at a high standard with efficient and reliable processes",
+    "example": "To be operationally excellent, we need to reduce our mean time to resolve incidents.",
+    "context": "Often used in company values or performance reviews. Implies disciplined, repeatable execution.",
+    "alternatives": ["highly efficient", "process-driven", "reliably executing"],
+    "category": "general"
+  },
+  {
+    "phrase": "bleeding edge",
+    "meaning": "The very latest and most advanced stage of development, beyond the cutting edge",
+    "example": "We're using bleeding edge ML models — some are still in research preview.",
+    "context": "Implies higher risk than 'cutting edge'. Useful when justifying experimental technology choices.",
+    "alternatives": ["cutting edge", "state of the art", "latest generation"],
+    "category": "presentations"
+  },
+  {
+    "phrase": "in the pipeline",
+    "meaning": "Being prepared or processed, but not yet ready",
+    "example": "The analytics redesign is in the pipeline for Q3 — stay tuned.",
+    "context": "Very common in product and sales contexts. Signals planned but not yet delivered.",
+    "alternatives": ["in progress", "coming soon", "planned for upcoming release"],
+    "category": "project-management"
+  },
+  {
+    "phrase": "on the horizon",
+    "meaning": "Likely to happen or become important in the near future",
+    "example": "There are some interesting AI features on the horizon that will change this workflow.",
+    "context": "Used in roadmap and strategy discussions. Less specific than 'in the pipeline'.",
+    "alternatives": ["coming soon", "expected in the future", "approaching"],
+    "category": "presentations"
+  }
+]

@@ -1,14 +1,54 @@
 {
-  "name": "hugo-english-assistant",
-  "description": "English Assistant for Hugo",
-  "version": "1.0",
+  "name": "English Assistant",
+  "description": "Improve your business English daily while working in Slack, Gmail, and Jira",
+  "version": "1.0.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup/index.html",
-    "default_icon": "images/icon.png"
+    "default_icon": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
   },
   "background": {
     "service_worker": "service-worker.js",
     "type": "module"
-  }
+  },
+  "permissions": [
+    "storage",
+    "alarms",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-scripts/shared-content-utils.js", "content-scripts/tooltip-renderer.js", "content-scripts/generic-content-script.js"],
+      "css": ["content-scripts/content-style.css"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://app.slack.com/*", "https://*.slack.com/*"],
+      "js": ["content-scripts/slack-content-script.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content-scripts/gmail-content-script.js"],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["content-scripts/jira-content-script.js"],
+      "run_at": "document_idle"
+    }
+  ]
 }

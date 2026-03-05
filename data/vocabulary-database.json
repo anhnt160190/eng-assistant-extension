@@ -1,0 +1,1811 @@
+[
+  {
+    "word": "leverage",
+    "definition": "Use something to maximum advantage",
+    "example": "We can leverage our existing partnerships to expand into new markets.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈlev.ər.ɪdʒ/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "synergy",
+    "definition": "The combined effect of two or more things that is greater than the sum of their individual effects",
+    "example": "The merger created real synergy between the two product teams.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈsɪn.ə.dʒi/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "bandwidth",
+    "definition": "The capacity or time available to deal with a situation",
+    "example": "I don't have the bandwidth to take on another project this sprint.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbænd.wɪdθ/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "scalable",
+    "definition": "Capable of being expanded or upgraded to handle increased demand",
+    "example": "We need a scalable architecture before we launch to enterprise customers.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈskeɪ.lə.bəl/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "pipeline",
+    "definition": "A series of processes or a channel through which work or deals progress",
+    "example": "There are three deals in the pipeline that should close by end of quarter.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈpaɪp.laɪn/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "visibility",
+    "definition": "The degree to which something is known or understood within an organization",
+    "example": "Can you give me more visibility into the timeline for this feature?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌvɪz.ɪˈbɪl.ɪ.ti/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "alignment",
+    "definition": "Agreement or cooperation among all parties involved",
+    "example": "We need full alignment from leadership before moving forward.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əˈlaɪn.mənt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "proactive",
+    "definition": "Taking action in anticipation of future problems rather than reacting to them",
+    "example": "Be proactive about flagging blockers — don't wait until standup.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˌproʊˈæk.tɪv/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "prioritize",
+    "definition": "Determine the order of tasks based on importance or urgency",
+    "example": "Let's prioritize the login bug fix over the new dashboard feature.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/praɪˈɒr.ɪ.taɪz/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "iterate",
+    "definition": "Repeat a process to improve a result incrementally",
+    "example": "We'll iterate on the design based on user feedback from the beta.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈɪt.ə.reɪt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "holistic",
+    "definition": "Considering all aspects of a system or problem together rather than in parts",
+    "example": "We need a holistic approach to the customer experience, not just the checkout flow.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/həʊˈlɪs.tɪk/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "robust",
+    "definition": "Strong, thorough, and unlikely to fail under pressure",
+    "example": "The error handling needs to be more robust before we go to production.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/roʊˈbʌst/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "granular",
+    "definition": "Detailed and specific, relating to individual components of a larger system",
+    "example": "Can you give me a more granular breakdown of the infrastructure costs?",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈɡræn.jʊ.lər/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "transparency",
+    "definition": "Openness and clarity in communication and processes",
+    "example": "We value transparency — all Jira boards are visible to the entire company.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/trænsˈpær.ən.si/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "initiative",
+    "definition": "A new plan or action aimed at solving a problem or achieving a goal",
+    "example": "The new onboarding initiative should reduce churn in the first 30 days.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ɪˈnɪʃ.ɪ.ə.tɪv/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "capacity",
+    "definition": "The ability or amount of resources available to do work",
+    "example": "The team is at full capacity this sprint; we can't pull in more tickets.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kəˈpæs.ɪ.ti/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "ecosystem",
+    "definition": "A network of interconnected products, services, and partners",
+    "example": "We're building an ecosystem of integrations around our core platform.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈiː.koʊˌsɪs.təm/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "bottleneck",
+    "definition": "A point of congestion that slows down a process",
+    "example": "The code review step is a bottleneck — PRs are sitting for 3 days on average.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbɒt.əl.nek/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "optimize",
+    "definition": "Make as effective or functional as possible",
+    "example": "We're working to optimize the query that's causing slow load times.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈɒp.tɪ.maɪz/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "benchmark",
+    "definition": "A standard or reference point used for comparison",
+    "example": "Set the benchmark before you start optimizing so you can measure improvement.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbentʃ.mɑːrk/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "stakeholder",
+    "definition": "A person or group with an interest or concern in something, especially a business",
+    "example": "We need buy-in from all key stakeholders before we can launch.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈsteɪkˌhoʊl.dər/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "cross-functional",
+    "definition": "Involving people from multiple departments or areas of expertise",
+    "example": "This is a cross-functional effort — we need design, eng, and product all aligned.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˌkrɒs ˈfʌŋk.ʃən.əl/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "ownership",
+    "definition": "Taking full responsibility for a task or outcome",
+    "example": "Who has ownership of the API migration? I need a single DRI.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈoʊ.nər.ʃɪp/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "accountability",
+    "definition": "The obligation to accept responsibility and report on one's actions",
+    "example": "We need clear accountability for each workstream going into Q2.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əˌkaʊn.təˈbɪl.ɪ.ti/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "pivot",
+    "definition": "A major change in strategy or direction",
+    "example": "After the user interviews, we had to pivot the product direction entirely.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈpɪv.ət/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "traction",
+    "definition": "Progress or momentum, especially in business growth",
+    "example": "The new feature is getting real traction — DAU is up 20% week over week.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈtræk.ʃən/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "runway",
+    "definition": "The amount of time a company can operate before running out of resources",
+    "example": "With this funding round, we have 18 months of runway.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈrʌn.weɪ/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "headcount",
+    "definition": "The number of people employed or needed for a task",
+    "example": "We're requesting two additional headcount for the backend team next quarter.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈhed.kaʊnt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "cadence",
+    "definition": "A regular rhythm or schedule for meetings, processes, or communication",
+    "example": "Let's establish a weekly cadence for these sync meetings.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈkeɪ.dəns/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "trajectory",
+    "definition": "The path or direction of development over time",
+    "example": "The growth trajectory looks strong if we maintain the current velocity.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/trəˈdʒek.tər.i/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "disruptive",
+    "definition": "Radically changing or challenging an existing industry or system",
+    "example": "Their pricing model is disruptive — it's undercutting every competitor.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/dɪsˈrʌp.tɪv/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "monetize",
+    "definition": "Convert something into a source of income",
+    "example": "We need a clear plan to monetize the free tier before Series B.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈmʌn.ɪ.taɪz/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "empirical",
+    "definition": "Based on observation and data rather than theory",
+    "example": "Let's make this decision with empirical data, not gut feeling.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ɪmˈpɪr.ɪ.kəl/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "feasibility",
+    "definition": "The state or degree of being easily done or carried out",
+    "example": "We need to run a feasibility study before committing to that timeline.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌfiː.zəˈbɪl.ɪ.ti/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "streamline",
+    "definition": "Make a process more efficient and effective by removing unnecessary steps",
+    "example": "We're trying to streamline the deployment process to cut release time in half.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈstriːm.laɪn/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "integral",
+    "definition": "Essential or necessary as a part of a whole",
+    "example": "The analytics module is integral to the product — we can't ship without it.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈɪn.tɪ.ɡrəl/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "consolidate",
+    "definition": "Combine multiple things into a single more effective unit",
+    "example": "We should consolidate those three services into one to reduce overhead.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/kənˈsɒl.ɪ.deɪt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "incentivize",
+    "definition": "Motivate or encourage an action through rewards",
+    "example": "How do we incentivize users to complete their profile after sign-up?",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ɪnˈsen.tɪ.vaɪz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "adjacent",
+    "definition": "Related or closely connected to a core area, but not the same",
+    "example": "We could explore adjacent markets like SMB once enterprise is stable.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/əˈdʒeɪ.sənt/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "friction",
+    "definition": "Resistance or difficulty in a user or business process",
+    "example": "There's too much friction in the onboarding flow — users are dropping off at step 3.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈfrɪk.ʃən/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "touchpoint",
+    "definition": "Any interaction between a customer and a company",
+    "example": "Every touchpoint in the customer journey should reinforce the brand.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈtʌtʃ.pɔɪnt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "narrative",
+    "definition": "The story or explanation that frames how something is communicated",
+    "example": "We need a stronger narrative around why we're raising prices.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈnær.ə.tɪv/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "baseline",
+    "definition": "A starting point used for comparison",
+    "example": "Let's establish a baseline metric before rolling out the experiment.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbeɪs.laɪn/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "rollout",
+    "definition": "A staged release or deployment of something new",
+    "example": "The feature rollout starts with 10% of users on Monday.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈroʊl.aʊt/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "onboarding",
+    "definition": "The process of integrating a new user or employee into a system or organization",
+    "example": "User onboarding completion rate is the key metric we're tracking this quarter.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈɒn.bɔːr.dɪŋ/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "churn",
+    "definition": "The rate at which customers stop using a product or service",
+    "example": "Churn spiked last month — we need to figure out what's driving cancellations.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/tʃɜːrn/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "retention",
+    "definition": "The ability to keep customers or employees over time",
+    "example": "Our retention numbers are strong — 90% of users are still active at day 30.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/rɪˈten.ʃən/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "dogfooding",
+    "definition": "Using your own product internally to test and improve it",
+    "example": "We've been dogfooding the new editor for two weeks — it's almost ready.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈdɒɡ.fuː.dɪŋ/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "north-star metric",
+    "definition": "The single most important metric that guides a product team's decisions",
+    "example": "Our north-star metric is weekly active users, not sign-ups.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌnɔːrθ stɑːr ˈmet.rɪk/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "upskill",
+    "definition": "To learn new skills or improve existing ones to meet current demands",
+    "example": "We're investing in opportunities to upskill the team on AI tooling.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈʌp.skɪl/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "ideate",
+    "definition": "To form and develop ideas, especially in a brainstorming context",
+    "example": "Let's get the team together to ideate on solutions for the Q3 bottleneck.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/aɪˈdiː.eɪt/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "socialize",
+    "definition": "To share an idea with a group to gather feedback before formal approval",
+    "example": "I want to socialize the new pricing model with the sales team before the all-hands.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈsoʊ.ʃəl.aɪz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "operationalize",
+    "definition": "To put a plan or concept into practice within an organization",
+    "example": "The challenge now is to operationalize the strategy we agreed on in Q1.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˌɒp.ər.eɪ.ʃən.ə.laɪz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "headwinds",
+    "definition": "Conditions or factors that make progress more difficult",
+    "example": "We're facing economic headwinds that are slowing enterprise sales.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈhed.wɪndz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "tailwinds",
+    "definition": "Favorable conditions that help accelerate growth or progress",
+    "example": "Remote work trends are a strong tailwind for our collaboration platform.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈteɪl.wɪndz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "deep-dive",
+    "definition": "A thorough and detailed investigation into a specific topic",
+    "example": "Can someone do a deep-dive on why conversion dropped last Tuesday?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈdiːp daɪv/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "net new",
+    "definition": "Entirely new, with no overlap with existing work or customers",
+    "example": "Are these net new customers or upgrades from the free tier?",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/net njuː/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "verticals",
+    "definition": "Specific industries or markets that a product or service targets",
+    "example": "We're focusing on two verticals this year: healthcare and fintech.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈvɜːr.tɪ.kəlz/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "whitespace",
+    "definition": "An unoccupied market opportunity or product gap",
+    "example": "There's a lot of whitespace in the mid-market segment we haven't explored.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈwaɪt.speɪs/",
+    "category": "general",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "action items",
+    "definition": "Specific tasks assigned to individuals as a result of a meeting",
+    "example": "Let's wrap up — what are the action items coming out of today's discussion?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈæk.ʃən ˌaɪ.təmz/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "agenda",
+    "definition": "A list of topics to be discussed or tasks to be completed in a meeting",
+    "example": "I'll send the agenda 24 hours before the meeting so everyone can prepare.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əˈdʒen.də/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "takeaways",
+    "definition": "The key points or conclusions from a meeting or presentation",
+    "example": "The main takeaway from today's retro is that we need better async communication.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈteɪk.ə.weɪz/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "facilitate",
+    "definition": "To make a process or meeting easier to run; to guide group discussion",
+    "example": "Can you facilitate the workshop on Thursday? I'll handle the slides.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/fəˈsɪl.ɪ.teɪt/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "quorum",
+    "definition": "The minimum number of people needed for a meeting to be valid",
+    "example": "We don't have quorum yet — let's wait five more minutes before starting.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈkwɔː.rəm/",
+    "category": "meetings",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "consensus",
+    "definition": "General agreement among a group of people",
+    "example": "Is there consensus on this approach, or do we need more discussion?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kənˈsen.səs/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "minutes",
+    "definition": "A written record of what was discussed and decided in a meeting",
+    "example": "I'll take minutes today and share them in the team channel afterward.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈmɪn.ɪts/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "debrief",
+    "definition": "A discussion after an event to review what happened and what was learned",
+    "example": "Let's do a quick debrief after the client demo — I want to hear your impressions.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈdiː.briːf/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "recap",
+    "definition": "A summary of what was discussed or decided",
+    "example": "I'll send a recap after the call so everyone has the decisions documented.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈriː.kæp/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "standup",
+    "definition": "A brief daily meeting where team members share updates and blockers",
+    "example": "Please drop your standup update in Slack by 9am if you're not joining the call.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstænd.ʌp/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "async",
+    "definition": "Asynchronous — not happening at the same time; used for non-real-time communication",
+    "example": "Feel free to respond async — no need to jump on a call for this.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈeɪ.sɪŋk/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "parking lot",
+    "definition": "A place to note off-topic ideas during a meeting to revisit later",
+    "example": "Great point — let's put that in the parking lot and come back to it next week.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈpɑːr.kɪŋ lɒt/",
+    "category": "meetings",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "retrospective",
+    "definition": "A meeting to reflect on past work and identify improvements",
+    "example": "The sprint retrospective is on Friday — please add items to the board beforehand.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌret.rəˈspek.tɪv/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "sync",
+    "definition": "A short meeting or conversation to align on status or decisions",
+    "example": "Can we have a quick sync today at 3pm to review the launch plan?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/sɪŋk/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "offline",
+    "definition": "Outside of the main meeting; to discuss separately",
+    "example": "Let's take that conversation offline — it's outside today's scope.",
+    "partOfSpeech": "adverb",
+    "pronunciation": "/ˈɒf.laɪn/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "touch base",
+    "definition": "To briefly contact someone to share or exchange information",
+    "example": "Let's touch base before the client call to make sure we're on the same page.",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/tʌtʃ beɪs/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "loop in",
+    "definition": "To include someone in a conversation or update them on something",
+    "example": "Please loop in the design team before you finalize the layout.",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/luːp ɪn/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "escalate",
+    "definition": "To raise a problem or decision to a higher level of authority",
+    "example": "If you can't resolve the conflict at team level, escalate it to the PM.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈes.kə.leɪt/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "noodling",
+    "definition": "Thinking about something informally without a set conclusion",
+    "example": "I've been noodling on a new approach — not a formal proposal yet, just ideas.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈnuː.dəl.ɪŋ/",
+    "category": "meetings",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "champion",
+    "definition": "A person who actively supports or promotes an idea within an organization",
+    "example": "We need a champion inside the client org to push this through procurement.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈtʃæm.pi.ən/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "buy-in",
+    "definition": "Agreement and support from stakeholders for a plan or decision",
+    "example": "We still need buy-in from the CFO before we can move forward.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbaɪ.ɪn/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "table",
+    "definition": "To postpone discussion of something (US English usage)",
+    "example": "Let's table the rebranding discussion until next quarter.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈteɪ.bəl/",
+    "category": "meetings",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "bandwidth check",
+    "definition": "Asking team members about their availability and current workload",
+    "example": "Before assigning this, let me do a quick bandwidth check with the team.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbænd.wɪdθ tʃek/",
+    "category": "meetings",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "hard stop",
+    "definition": "A firm end time for a meeting that cannot be extended",
+    "example": "I have a hard stop at 2pm, so let's make sure we cover the key points first.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/hɑːrd stɒp/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "per your request",
+    "definition": "As asked or as requested",
+    "example": "Per your request, I've attached the updated contract for your review.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/pɜːr jɔːr rɪˈkwest/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "as per",
+    "definition": "In accordance with",
+    "example": "As per our conversation last week, I'm following up on the proposal.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/æz pɜːr/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "kindly",
+    "definition": "Please (used formally in email to soften a request)",
+    "example": "Kindly review the attached document and share your feedback by Friday.",
+    "partOfSpeech": "adverb",
+    "pronunciation": "/ˈkaɪnd.li/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "FYI",
+    "definition": "For Your Information — sharing information without requiring action",
+    "example": "FYI, the client moved their deadline up to Thursday.",
+    "partOfSpeech": "abbreviation",
+    "pronunciation": "/ˌef.waɪˈaɪ/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "regards",
+    "definition": "A formal way to close an email (Best regards, Kind regards)",
+    "example": "Kind regards, Sarah",
+    "partOfSpeech": "noun",
+    "pronunciation": "/rɪˈɡɑːrdz/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "revert",
+    "definition": "To reply or respond (used in business email, especially in South/Southeast Asia)",
+    "example": "Please revert at your earliest convenience with your decision.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/rɪˈvɜːrt/",
+    "category": "email",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "cc",
+    "definition": "Carbon Copy — to send a copy of an email to an additional recipient",
+    "example": "I've CC'd the legal team on this thread for visibility.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˌsiːˈsiː/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "bcc",
+    "definition": "Blind Carbon Copy — to send a copy without other recipients knowing",
+    "example": "I BCC'd my manager on the email to keep her in the loop.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˌbiː.siːˈsiː/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "loop",
+    "definition": "To include someone in an email thread",
+    "example": "I've looped in our account manager — she'll be the main point of contact.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/luːp/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "action required",
+    "definition": "A signal that the recipient must do something specific",
+    "example": "ACTION REQUIRED: Please approve the budget by end of day.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/ˈæk.ʃən rɪˈkwaɪərd/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "follow-up",
+    "definition": "A subsequent communication to check on progress or get a response",
+    "example": "Just sending a quick follow-up to my email from Monday — did you get a chance to review?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈfɒl.oʊ ʌp/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "for your reference",
+    "definition": "Providing information that the reader may find useful",
+    "example": "For your reference, I've attached the previous version of the document.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/fɔːr jɔːr ˈref.ər.əns/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "pending",
+    "definition": "Awaiting a decision or action; not yet resolved",
+    "example": "There are two items pending approval on your end before we can proceed.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈpen.dɪŋ/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "escalation",
+    "definition": "Raising a problem or issue to someone with more authority",
+    "example": "This is an escalation — I've been waiting 10 days for a response.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌes.kəˈleɪ.ʃən/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "noted",
+    "definition": "Acknowledgment that information has been received and understood",
+    "example": "Noted. I'll make the changes before the end of the day.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈnoʊ.tɪd/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "as discussed",
+    "definition": "Referring back to a previous conversation",
+    "example": "As discussed on our call, I'm sharing the revised scope document.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/æz dɪˈskʌst/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "please advise",
+    "definition": "A formal request for guidance or a decision",
+    "example": "We've received a complaint from the client. Please advise on how to proceed.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/pliːz ədˈvaɪz/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "touching base",
+    "definition": "Making brief contact to check in on something",
+    "example": "Just touching base on the status of the API integration — any updates?",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/ˈtʌtʃ.ɪŋ beɪs/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "per above",
+    "definition": "Referring to information stated earlier in the email thread",
+    "example": "Per the discussion above, please confirm by Thursday.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/pɜːr əˈbʌv/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "circling back",
+    "definition": "Returning to a topic after some time has passed",
+    "example": "Circling back on my email from last week — have you had a chance to look at this?",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/ˈsɜːr.kəl.ɪŋ bæk/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "at your earliest convenience",
+    "definition": "As soon as you are able to, without too much delay",
+    "example": "Please review the attached proposal at your earliest convenience.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/æt jɔːr ˈɜːr.li.ɪst kənˈviː.ni.əns/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "further to",
+    "definition": "In addition to or following up on a previous communication",
+    "example": "Further to our meeting yesterday, I'd like to clarify a few points.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/ˈfɜːr.ðər tuː/",
+    "category": "email",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "pursuant to",
+    "definition": "In accordance with or in compliance with",
+    "example": "Pursuant to our agreement, the first payment is due on the 15th.",
+    "partOfSpeech": "phrase",
+    "pronunciation": "/pɜːrˈsuː.ənt tuː/",
+    "category": "email",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "RSVP",
+    "definition": "Please respond / confirm attendance (from French 'répondez s'il vous plaît')",
+    "example": "Please RSVP by Wednesday so we can confirm the room booking.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˌɑːr.es.viːˈpiː/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "EOM",
+    "definition": "End of Message — used in email subject lines to indicate no body is needed",
+    "example": "Meeting moved to 3pm EOM",
+    "partOfSpeech": "abbreviation",
+    "pronunciation": "/ˌiː.oʊˈem/",
+    "category": "email",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "TL;DR",
+    "definition": "Too Long; Didn't Read — a brief summary of a longer message",
+    "example": "TL;DR: the launch is delayed by two weeks due to the security audit.",
+    "partOfSpeech": "abbreviation",
+    "pronunciation": "/ˌtiː.el.diːˈɑːr/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "OOO",
+    "definition": "Out of Office — an auto-reply or status indicating unavailability",
+    "example": "I'm OOO until Monday. For urgent matters, please contact Sarah.",
+    "partOfSpeech": "abbreviation",
+    "pronunciation": "/ˌoʊ.oʊˈoʊ/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "high priority",
+    "definition": "Requiring immediate or preferential attention",
+    "example": "Marking this as high priority — we need a response before EOD.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/haɪ praɪˈɒr.ɪ.ti/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "sprint",
+    "definition": "A fixed time period (usually 1–2 weeks) during which a team completes planned work",
+    "example": "This task is too large for one sprint — let's break it into smaller stories.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/sprɪnt/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "backlog",
+    "definition": "A list of tasks or features waiting to be worked on, ordered by priority",
+    "example": "The product backlog has over 200 items — we need a grooming session.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbæk.lɒɡ/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "milestone",
+    "definition": "A significant event or achievement in a project timeline",
+    "example": "Hitting the beta milestone by June is non-negotiable for the investor demo.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈmaɪl.stoʊn/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "deliverable",
+    "definition": "A tangible or measurable result or output that must be produced",
+    "example": "The deliverable for this sprint is a working prototype with the core user flow.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/dɪˈlɪv.ər.ə.bəl/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "blockers",
+    "definition": "Issues or obstacles preventing progress on a task",
+    "example": "My main blocker right now is waiting for design to finalize the modal.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈblɒk.ərz/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "velocity",
+    "definition": "The measure of how much work a team completes in a sprint",
+    "example": "Our velocity has dropped because we underestimated the refactoring work.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/vəˈlɒs.ɪ.ti/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "epic",
+    "definition": "A large body of work that can be broken down into smaller stories or tasks",
+    "example": "The authentication epic covers login, registration, and password reset.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈep.ɪk/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "user story",
+    "definition": "A short description of a feature from the perspective of the end user",
+    "example": "The user story says 'As a user, I want to filter results so I can find items faster.'",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈjuː.zər ˌstɔːr.i/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "acceptance criteria",
+    "definition": "Conditions that a deliverable must meet to be accepted as complete",
+    "example": "Make sure you read the acceptance criteria before you start the ticket.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əkˈsep.təns kraɪˈtɪə.ri.ə/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "scope creep",
+    "definition": "The uncontrolled expansion of a project's scope beyond original plans",
+    "example": "Adding three more features to this sprint is scope creep — we need to push back.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/skoʊp kriːp/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "estimation",
+    "definition": "The process of assessing the effort or time required to complete a task",
+    "example": "The estimation for that ticket is 3 story points, not 8.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌes.tɪˈmeɪ.ʃən/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "story points",
+    "definition": "A unit used to estimate the relative effort of a task",
+    "example": "We're assigning story points during planning — 1 is trivial, 13 is a spike.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstɔːr.i pɔɪnts/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "grooming",
+    "definition": "The process of reviewing and refining the backlog to prepare for future sprints",
+    "example": "Backlog grooming is Tuesday — please review the tickets beforehand.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈɡruː.mɪŋ/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "DRI",
+    "definition": "Directly Responsible Individual — one person accountable for a task's outcome",
+    "example": "Who's the DRI on the authentication feature? Someone needs to own this end to end.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌdiː.ɑːrˈaɪ/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "kanban",
+    "definition": "A visual system for managing work as it moves through stages",
+    "example": "We use a kanban board in Jira to track all in-flight work.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈkæn.bæn/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "WIP",
+    "definition": "Work In Progress — tasks currently being worked on, often limited to prevent overload",
+    "example": "We have a WIP limit of 3 per developer to avoid context-switching.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/wɪp/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "definition of done",
+    "definition": "A shared understanding of what criteria a task must meet to be considered complete",
+    "example": "According to our definition of done, tickets need tests and a PR review before merging.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌdef.ɪˈnɪʃ.ən əv dʌn/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "burndown",
+    "definition": "A chart showing remaining work versus time in a sprint",
+    "example": "The burndown chart shows we're behind — we might not finish by Friday.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbɜːrn.daʊn/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "release candidate",
+    "definition": "A version of software ready for final testing before public release",
+    "example": "RC1 is built — QA should start testing today.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/rɪˈliːs ˈkæn.dɪ.dət/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "spike",
+    "definition": "A time-boxed research task to explore a solution before committing to it",
+    "example": "Let's create a spike to investigate the best library for PDF rendering.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/spaɪk/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "roadmap",
+    "definition": "A high-level plan showing the direction and timeline of a product",
+    "example": "The product roadmap has three main themes this year: performance, mobile, and integrations.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈroʊd.mæp/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "dependency",
+    "definition": "A task or condition that must be completed before another can start",
+    "example": "This ticket has a dependency on the auth refactor — it can't start until that merges.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/dɪˈpen.dən.si/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "technical debt",
+    "definition": "The implied cost of future rework caused by quick or poorly designed solutions",
+    "example": "We need to schedule time to pay down the technical debt in the payments module.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈtek.nɪ.kəl det/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "hotfix",
+    "definition": "An urgent patch deployed outside the normal release cycle to fix a critical bug",
+    "example": "We pushed a hotfix for the login issue — should be live in 30 minutes.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈhɒt.fɪks/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "post-mortem",
+    "definition": "An analysis of what went wrong after an incident or failed project",
+    "example": "We're holding a post-mortem on Monday to understand what caused last week's outage.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌpoʊst ˈmɔːr.təm/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "SLA",
+    "definition": "Service Level Agreement — a commitment to a certain level of service or response time",
+    "example": "Our SLA guarantees 99.9% uptime — we're currently in breach.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌes.el.ˈeɪ/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "OKRs",
+    "definition": "Objectives and Key Results — a framework for setting and tracking goals",
+    "example": "Our Q2 OKRs are focused on growth: 20% increase in MRR and 15% reduction in churn.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌoʊ.keɪˈɑːrz/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "KPI",
+    "definition": "Key Performance Indicator — a measurable value showing how well something is working",
+    "example": "Our main KPI for this quarter is CSAT score above 4.5.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌkeɪ.piːˈaɪ/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "feature flag",
+    "definition": "A technique to enable or disable features without deploying new code",
+    "example": "The new dashboard is behind a feature flag — enable it in your dev environment to test.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈfiː.tʃər flæɡ/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "A/B testing",
+    "definition": "Comparing two versions of something to see which performs better",
+    "example": "We ran an A/B test on the CTA button — the green version had 12% better conversion.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌeɪ biː ˈtest.ɪŋ/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "deck",
+    "definition": "A presentation file, typically made in PowerPoint, Keynote, or Google Slides",
+    "example": "Can you send me the deck from yesterday's investor meeting?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/dek/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "walk through",
+    "definition": "To explain or present something step by step",
+    "example": "I'll walk through the key findings from the user research in the first 10 minutes.",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/wɔːk θruː/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "key takeaway",
+    "definition": "The most important point or message from a presentation",
+    "example": "The key takeaway here is that mobile engagement is 3x higher than desktop.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kiː ˈteɪk.ə.weɪ/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "straw man",
+    "definition": "A rough first draft or proposal presented to invite discussion and refinement",
+    "example": "This is just a straw man for the strategy — I want your reactions before I refine it.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstrɔː mæn/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "elevator pitch",
+    "definition": "A short, compelling summary of a product or idea that can be delivered quickly",
+    "example": "Can you give me your elevator pitch for why we should invest in this integration?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈel.ɪ.veɪ.tər pɪtʃ/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "headline",
+    "definition": "The main message or key point at the top of a slide",
+    "example": "Each slide should have one headline that summarizes the insight, not just the topic.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈhed.laɪn/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "Q&A",
+    "definition": "Question and Answer — a session where the audience can ask questions",
+    "example": "We'll have 10 minutes for Q&A at the end of the presentation.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌkjuːˈeɪ/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "hard data",
+    "definition": "Quantitative, objective facts or statistics",
+    "example": "Let's not rely on anecdotes — back up the recommendation with hard data.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/hɑːrd ˈdeɪ.tə/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "narrative arc",
+    "definition": "The story structure that connects the points of a presentation",
+    "example": "The deck lacks a narrative arc — it feels like a list of facts, not a story.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈnær.ə.tɪv ɑːrk/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "visualize",
+    "definition": "To represent data or ideas in a graphical format",
+    "example": "Can you visualize the conversion funnel so it's easier for stakeholders to grasp?",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈvɪʒ.u.ə.laɪz/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "framing",
+    "definition": "The way information is presented to influence how it is perceived",
+    "example": "Be careful with the framing — showing absolute numbers vs. percentages changes the message.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈfreɪ.mɪŋ/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "call to action",
+    "definition": "A clear statement of what you want the audience to do after the presentation",
+    "example": "Every executive presentation needs a clear call to action — what are you asking them to approve?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kɔːl tuː ˈæk.ʃən/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "exec summary",
+    "definition": "A brief overview of a longer document aimed at senior decision-makers",
+    "example": "Put the exec summary on slide 2 — leadership won't read past slide 5.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ɪɡˈzek ˈsʌm.ər.i/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "appendix",
+    "definition": "Supporting material added at the end of a presentation for reference",
+    "example": "I moved the detailed financials to the appendix so the main deck stays clean.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əˈpen.dɪks/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "talking points",
+    "definition": "Brief notes that guide what to say on each slide or topic",
+    "example": "I'll prepare talking points for each slide so the presenter is ready for questions.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈtɔːk.ɪŋ pɔɪnts/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "run of show",
+    "definition": "A detailed schedule of a presentation or event in order",
+    "example": "Here's the run of show for the product launch event — please review your segment.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/rʌn əv ʃoʊ/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "dry run",
+    "definition": "A rehearsal of a presentation or process before the real event",
+    "example": "Let's do a dry run tomorrow morning before the board presentation.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈdraɪ rʌn/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "story-time",
+    "definition": "A session to review and discuss backlog stories collaboratively",
+    "example": "We'll use story-time to align on requirements before sprint planning.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstɔːr.i taɪm/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "data-driven",
+    "definition": "Making decisions based on evidence and analysis rather than intuition",
+    "example": "We need a data-driven approach to justify the infrastructure investment.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˈdeɪ.tə ˌdrɪv.ən/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "counteroffer",
+    "definition": "A proposal made in response to an offer, modifying the original terms",
+    "example": "They came back with a counteroffer — 10% less than our asking price.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈkaʊn.tər.ɒf.ər/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "bottom line",
+    "definition": "The minimum acceptable condition or final position in a negotiation",
+    "example": "My bottom line is a 12-month contract. I won't go shorter than that.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbɒt.əm laɪn/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "deal-breaker",
+    "definition": "A condition that, if not met, will cause negotiations to fail",
+    "example": "Exclusivity is a deal-breaker for us — we can't accept that clause.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈdiːl ˌbreɪ.kər/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "terms",
+    "definition": "The conditions and provisions agreed upon in a contract or deal",
+    "example": "We're still negotiating the terms around IP ownership and liability.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/tɜːrmz/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "concession",
+    "definition": "Something given up in a negotiation to reach agreement",
+    "example": "We made a concession on the price in exchange for a longer contract term.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kənˈseʃ.ən/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "BATNA",
+    "definition": "Best Alternative to a Negotiated Agreement — your fallback option",
+    "example": "Know your BATNA before entering any negotiation — it sets your minimum threshold.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈbæt.nə/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "anchor",
+    "definition": "The first number or proposal put on the table, which influences the rest of the negotiation",
+    "example": "They anchored at 500k — we need to counter before that number sticks.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈæŋ.kər/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "sticking point",
+    "definition": "An issue that repeatedly causes difficulty in reaching agreement",
+    "example": "The main sticking point is indemnification — legal on both sides can't agree.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstɪk.ɪŋ pɔɪnt/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "good faith",
+    "definition": "Honest and sincere intention to deal fairly",
+    "example": "We made this concession in good faith — we expect the same in return.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ɡʊd feɪθ/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "redline",
+    "definition": "To mark up a contract with proposed changes or rejections",
+    "example": "Legal redlined six clauses — I'll share the marked-up version now.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈred.laɪn/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "walk away",
+    "definition": "To end negotiations without reaching a deal",
+    "example": "If they don't meet our minimum, we're prepared to walk away.",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/wɔːk əˈweɪ/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "zone of possible agreement",
+    "definition": "The range within which a deal can be struck — between both parties' minimum positions",
+    "example": "There is a ZOPA here — they can go up to $80k, we can go down to $75k.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/zoʊn əv ˈpɒs.ɪ.bəl əˈɡriː.mənt/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "non-negotiable",
+    "definition": "A condition or requirement that cannot be changed or compromised",
+    "example": "The 60-day payment terms are non-negotiable from our finance team's perspective.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ˌnɒn.nɪˈɡoʊ.ʃi.ə.bəl/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "mutual benefit",
+    "definition": "An outcome that is advantageous for all parties involved",
+    "example": "Let's focus on finding a structure that creates mutual benefit for both organizations.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈmjuː.tʃu.əl ˈben.ɪ.fɪt/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "table an offer",
+    "definition": "To formally put an offer forward for consideration",
+    "example": "They've tabled an offer — I'll share the details with the team this afternoon.",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": "/ˈteɪ.bəl ən ˈɒf.ər/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "due diligence",
+    "definition": "The research and verification process before finalizing a deal or partnership",
+    "example": "We're in the due diligence phase — expecting to close the deal by end of month.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/djuː ˈdɪl.ɪ.dʒəns/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "closing",
+    "definition": "The final stage of a deal where terms are agreed and contracts are signed",
+    "example": "We're close to closing — just waiting on the final signature from their legal team.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈkloʊ.zɪŋ/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "preliminary agreement",
+    "definition": "An initial agreement made before the final contract is signed",
+    "example": "We have a preliminary agreement in place — the full contract is being drafted.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/prɪˈlɪm.ɪ.ner.i əˈɡriː.mənt/",
+    "category": "negotiations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "NDA",
+    "definition": "Non-Disclosure Agreement — a contract requiring parties to keep information confidential",
+    "example": "Before we can share the product roadmap, we'll need an NDA in place.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌen.diːˈeɪ/",
+    "category": "negotiations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "outcome",
+    "definition": "The final result or consequence of a process or decision",
+    "example": "The desired outcome of this sprint is a fully working checkout flow.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈaʊt.kʌm/",
+    "category": "general",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "workstream",
+    "definition": "A distinct area of activity within a larger project, often managed separately",
+    "example": "There are four workstreams in this program — infrastructure, API, UI, and QA.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈwɜːrk.striːm/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "sign-off",
+    "definition": "Formal approval or authorization from a person with authority",
+    "example": "I need sign-off from the VP of Engineering before we can merge this.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈsaɪn.ɒf/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "onboarding flow",
+    "definition": "The step-by-step experience a new user goes through when first using a product",
+    "example": "We're redesigning the onboarding flow to reduce time-to-value from 5 days to 1.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈɒn.bɔːr.dɪŋ floʊ/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "value proposition",
+    "definition": "A clear statement of the unique benefit a product or service provides to customers",
+    "example": "The core value proposition is 10x faster deployment — make sure that's on the first slide.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈvæl.juː ˌprɒp.əˈzɪʃ.ən/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "pain point",
+    "definition": "A specific problem or frustration experienced by customers or users",
+    "example": "The top pain point from user interviews was the slow loading time on mobile.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈpeɪn pɔɪnt/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "competitive landscape",
+    "definition": "An overview of the competitors in a market and how they compare",
+    "example": "Slide 4 should cover the competitive landscape — include at least five key players.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kəmˈpet.ɪ.tɪv ˈlænd.skeɪp/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "market share",
+    "definition": "The percentage of total sales in a market held by one company",
+    "example": "We've grown market share from 8% to 14% in 18 months.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈmɑːr.kɪt ʃer/",
+    "category": "presentations",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "go-to-market",
+    "definition": "The strategy and plan for launching a product to customers",
+    "example": "The go-to-market strategy targets mid-market SaaS companies first.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˌɡoʊ tuː ˈmɑːr.kɪt/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "addressable market",
+    "definition": "The total potential revenue opportunity available for a product or service",
+    "example": "The total addressable market for B2B analytics is estimated at $12 billion.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/əˈdres.ə.bəl ˈmɑːr.kɪt/",
+    "category": "presentations",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "standing item",
+    "definition": "A recurring agenda point that appears at every meeting",
+    "example": "The blocker review is a standing item on our weekly sync.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈstæn.dɪŋ ˈaɪ.təm/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "open floor",
+    "definition": "A portion of a meeting where anyone can raise topics or ask questions",
+    "example": "We'll have 10 minutes at the end for open floor — bring your questions.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈoʊ.pən flɔːr/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "read-out",
+    "definition": "A summary presentation of findings or results to a group",
+    "example": "Can you prepare a read-out of the user research for Thursday's meeting?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈriːd.aʊt/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "time-box",
+    "definition": "To allocate a fixed amount of time to a discussion or activity",
+    "example": "Let's time-box this to 15 minutes so we stay on schedule.",
+    "partOfSpeech": "verb",
+    "pronunciation": "/ˈtaɪm.bɒks/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "roundtable",
+    "definition": "A meeting format where all participants have equal standing and can contribute",
+    "example": "We'll run it as a roundtable — everyone shares one challenge from their team.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈraʊnd.teɪ.bəl/",
+    "category": "meetings",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "warm intro",
+    "definition": "An introduction to a contact made through a mutual connection",
+    "example": "Could you give me a warm intro to the VP at Stripe?",
+    "partOfSpeech": "noun",
+    "pronunciation": "/wɔːrm ˈɪn.troʊ/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "thread",
+    "definition": "A chain of related messages in an email or messaging platform",
+    "example": "I've replied inline on the thread — see my comments marked in blue.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/θred/",
+    "category": "email",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "sprint planning",
+    "definition": "A meeting at the start of a sprint where the team selects and commits to work",
+    "example": "Sprint planning is Monday at 10am — please review the backlog before then.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/sprɪnt ˈplæn.ɪŋ/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "capacity planning",
+    "definition": "The process of determining how much work a team can handle in a given period",
+    "example": "Capacity planning for Q3 shows we're already overcommitted by 20%.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/kəˈpæs.ɪ.ti ˈplæn.ɪŋ/",
+    "category": "project-management",
+    "difficulty": "advanced"
+  },
+  {
+    "word": "incident",
+    "definition": "An unplanned interruption to a service or degradation of service quality",
+    "example": "We had a Sev1 incident last night — the payments API was down for 45 minutes.",
+    "partOfSpeech": "noun",
+    "pronunciation": "/ˈɪn.sɪ.dənt/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "on track",
+    "definition": "Progressing according to plan and expected to meet the deadline",
+    "example": "The migration is on track — we're 80% done with two weeks to go.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/ɒn træk/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  },
+  {
+    "word": "at risk",
+    "definition": "In danger of not being completed on time or to specification",
+    "example": "The mobile release is at risk — we still have 12 open bugs.",
+    "partOfSpeech": "adjective",
+    "pronunciation": "/æt rɪsk/",
+    "category": "project-management",
+    "difficulty": "intermediate"
+  }
+]
